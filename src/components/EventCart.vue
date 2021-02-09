@@ -9,6 +9,7 @@
   </router-link>
 </template>
 
+
 <script>
 export default {
   name: "EventCart",
@@ -28,6 +29,7 @@ export default {
   }
 };
 </script>
+
 
 <style scoped>
 .event-card {
