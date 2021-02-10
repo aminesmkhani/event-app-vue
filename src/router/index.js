@@ -18,9 +18,9 @@ const routes = [
     props: true
   },
   {
-    path: "/event/create",
-    name: "event-create",
-    component: () => import("../views/EventCreate.vue")
+//    path: "/event/create",
+//    name: "event-create",
+//    component: () => import("../views/EventCreate.vue")
   }
 ];
 
