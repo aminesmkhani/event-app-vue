@@ -2,6 +2,7 @@
   <div>
     <h1>EventList</h1>
     <EventCart/>
+    <BaseIcon/>
   </div>
 </template>
 
