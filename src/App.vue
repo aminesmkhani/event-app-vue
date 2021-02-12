@@ -1,18 +1,23 @@
 <template>
   <div id="app">
     <NavBar/>
-    <router-view />
+    <NotificationContainer/>
+    <router-view :key="$route.fullPath"/>
   </div>
 </template>
+
 <script>
-import NavBar from "@/components/NavBar";
+import NavBar from '@/components/NavBar.vue'
+import NotificationContainer from '@/components/NotificationContainer.vue'
+
 export default {
   components: {
-    // eslint-disable-next-line vue/no-unused-components
-    NavBar
+    NavBar,
+    NotificationContainer
   }
-};
+}
 </script>
+
 <style>
 html {
   -webkit-text-size-adjust: 100%;
@@ -198,7 +203,7 @@ textarea {
   padding: 0 10px;
   font-size: 20px;
 }
-[type="text"]:focus,
+[type='text']:focus,
 [type='number']:focus,
 [type='search']:focus,
 [type='password']:focus {
@@ -220,8 +225,8 @@ select {
   padding: 0 24px 0 10px;
   vertical-align: middle;
   background: #fff
-  url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E")
-  no-repeat right 12px center;
+    url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E")
+    no-repeat right 12px center;
   background-size: 8px 10px;
   border: solid 1px rgba(0, 0, 0, 0.4);
   border-radius: 0;
