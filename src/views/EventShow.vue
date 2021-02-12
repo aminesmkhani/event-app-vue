@@ -7,6 +7,7 @@
       <h5>Category: {{ event.category }}</h5>
     </div>
 
+
     <BaseIcon name="map">
       <h2>Location</h2>
     </BaseIcon>

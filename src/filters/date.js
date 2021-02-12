@@ -6,3 +6,5 @@ export default value => {
     year: 'numeric'
   })
 }
+
+

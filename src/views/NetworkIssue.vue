@@ -5,3 +5,5 @@
         <router-link :to="{ name: 'event-list' }">Or go back to the home page</router-link>
     </div>
 </template>
+
+

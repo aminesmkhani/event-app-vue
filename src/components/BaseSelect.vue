@@ -11,6 +11,7 @@
     </select>
   </div>
 </template>
+
 <script>
 import { formFieldMixin } from '../mixins/formFieldMixin'
 export default {

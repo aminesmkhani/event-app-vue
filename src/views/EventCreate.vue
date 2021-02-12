@@ -13,6 +13,7 @@
         <p v-if="!$v.event.category.required" class="errorMessage">Category is required.</p>
       </template>
 
+
       <h3>Name & describe your event</h3>
       <BaseInput
         label="Title"

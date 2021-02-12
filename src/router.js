@@ -8,6 +8,8 @@ import store from '@/store/store'
 import NotFound from './views/NotFound.vue'
 import NetworkIssue from './views/NetworkIssue.vue'
 
+
+
 Vue.use(Router)
 
 const router = new Router({

@@ -8,6 +8,8 @@
   </div>
 </template>
 
+
+
 <script>
 import NotificationBar from '@/components/NotificationBar.vue'
 import { mapState } from 'vuex'

@@ -24,6 +24,7 @@ export default {
 }
 </script>
 
+
 <style scoped>
 .icon-wrapper {
   display: inline-flex;

@@ -5,6 +5,7 @@ import EventShow from "@/views/EventShow";
 
 Vue.use(VueRouter);
 
+
 const routes = [
   {
     path: "/",
