@@ -1,4 +1,4 @@
-# Perfesional Vue js Event Adder (SPA)
+# Perfesional Create & Manage Events Vue.js App (SPA)
 
 ## English README 😊
 ## Vue Mastery has been used in the construction of this repository 
