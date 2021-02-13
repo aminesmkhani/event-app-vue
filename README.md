@@ -1,70 +1,45 @@
-# Vue Mastery Example Event App
+# Perfesional Create & Manage Events Vue.js App (SPA)
 
-## Following along?
+## English README 😊
+## Vue Mastery has been used in the construction of this repository 
 
-We encourage you to follow the course on Vue Mastery, and code along with us. This course has tags representing the start and finish of each lesson, just in case you get stuck.
 
-Here are the commands you’ll want handy once you have it installed. I’m assuming you already have npm installed.
+![Create Event](https://uupload.ir/files/x1ie_1.png)
 
-To install dependencies:
+### Installation
+___
+It's just like any other Simple project. Basically here is how you use it for yourself.
 
-```
-    $ npm install
-```
+.
 
-To run the server:
+- Clone the repo `https://github.com/aminesmkhani/event-app-vue`
+- `cd` to project folder.
+- Run `npm install`
+- After `npm run serve`
+- Open Browser `localhost:8080`
+- Done !!! Enjoy `Run` app
 
-```
-    $ npm run serve
-```
+# برنامه حرفه ای ایجاد و مدیریت رویداد با ویو (اپلیکیشسن تک صفحه ای)
 
-To get json-server, which we use for our mock database (Starting on API calls with Axios)
+## Persian README 😊
+## برای ساخت این مخزن از ویو مَستری کمک گرفته شده
 
-```
-    $ npm install -g json-server
-```
 
-To run the mock database
+![Create Event](https://uupload.ir/files/x1ie_1.png)
 
-```
-    $ json-server --watch db.json
-```
 
-## Real World Vue Course
+### نصب و راه اندازی
+___
+این دقیقاً مانند هر پروژه ساده دیگری است. اساساً در اینجا نحوه استفاده از آن برای خود آورده شده است
 
-| Lesson                        |                                                                                                        |                                                                                                         |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
-| Vue CLI                       | n/a                                                                                                    | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson2-cli-finish)             |
-| Optimizing your IDE           | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson3-editor-start)          | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson3-editor-finish)          |
-| Vue Router Basics             | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson4-routing-start)         | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson4-routing-finish)         |
-| Dynamic Routes & History Mode | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson5-dynamic-routing-start) | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson5-dynamic-routing-finish) |
-| Single File Components        | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson6-sfc-start)             | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson6-sfc-finish)             |
-| Global Components             | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson7-global-start)          | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson7-global-finish)          |
-| Slots                         | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson8-slots-start)           | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson8-slots-finish)           |
-| API Calls with Axios          | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson9-axios-start)           | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson9-axios-finish)           |
+.
 
-## Mastering Vuex Course
+- دانلود مخزن `https://github.com/aminesmkhani/event-app-vue`
+- وارد مسیری که پروژه رو دانلود کردید بشید
+- ترمینال رو باز کنید و دستور روبرو را تایپ کنید `npm install`
+- بعد از اتمام دستور بالا این دستور را وارد کنید `npm run serve`
+- مرورگر خودتون رو باز کنید و آدرس روبرو رو تایپ کنید `localhost:8080`
+- انجام شد از `برنامه ` لذت ببرید
 
-| Lesson                          |                                                                                                              |                                                                                                               |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
-| Vuex State & Getters            | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson11-vuex-start)                 | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson11-vuex-finish)                 |
-| Vuex Mutations & Actions Part 1 | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson12-mutations%26actions1-start) | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson12-mutations%26actions1-finish) |
-| Vuex Mutations & Actions Part 2 | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson13-mutations%26actions2-start) | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson13-mutations%26actions2-finish) |
-| Vuex Modules                    | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson14-modules-start)              | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson14-modules-finish)              |
-| Success & Error Notifications   | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson15-notifications-start)        | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson15-notifications-finish)        |
 
-## Next-Level Vue Course
 
-| Lesson                                    |                                                                                                    |                                                                                                                      |
-| ----------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| Progress Bar: Axios Interceptors          | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/progress-bar-start)        | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/progress-bar-axios-interceptors-finish)      |
-| Progress Bar: In-Component Route Guards   | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/progress-bar-start)        | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/progressbar-in-component-route-guard-finish) |
-| Progress Bar: Global and Per-Route Guards | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/progress-bar-start)        | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/progress-bar-global-guard)                   |
-| Completing our Progress Bar               | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/progress-bar-global-guard) | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/progress-bar-finished)                       |
-| Reusable Form Components: BaseInput       | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/error-handling-finish)     | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/BaseInput-finish)                            |
-| Reusable Form Components: BaseSelect      | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/BaseInput-finish)          | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/baseSelect-finish)                           |
-| Reusable Form Components: BaseButton      | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/baseSelect-finish)         | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/baseButton-finish)                           |
-| Form Validation with Vuelidate            | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/baseButton-finish)         | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/form_validation1_finish)                     |
-| Form Validation with Vuelidate pt 2       | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/form_validation1_finish)   | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/vuelidateP2-finish)                          |
-| Mixins                                    | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/vuelidateP2-finish)        | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/mixins_finish)                               |
-| Filters                                   | [Starting Code](https://github.com/Code-Pop/real-world-vue/releases/tag/mixins_finish)             | [Finished Code](https://github.com/Code-Pop/real-world-vue/releases/tag/filters_finish)                              |
